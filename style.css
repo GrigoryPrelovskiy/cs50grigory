@@ -1,0 +1,73 @@
+body {
+  margin: 20px;
+  background-color: #d3e4e0;
+}
+
+.my-row {
+  padding: 10px;
+}
+
+.btn-xl {
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 10px;
+  width: 100%;
+  margin: 10px;
+}
+
+@media (min-width: 1000px) {
+  h1::before {
+    content: "Login Cycle Club";
+  }
+}
+@media (max-width: 999px) {
+  h1::before {
+    content: "Login Cycle";
+  }
+}
+h1 {
+  text-align: center;
+}
+
+.img-fluid {
+  width: 150%;
+  height: auto;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 100px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-instagram {
+  background: #3f729b;
+  color: white;
+}
+
+.u {
+  font-style: 20px;
+}
+
+ul {
+  font-size: 20px;
+}
+ul ul {
+  font-size: 15px;
+  font-variant: small-caps;
+}
+
+/*# sourceMappingURL=style.css.map */
